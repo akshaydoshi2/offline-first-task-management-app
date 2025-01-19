@@ -1,16 +1,40 @@
-# tushop_assesment
+# Tushop Assignment
 
-A new Flutter project.
+A simple offline-first Task Management App using Hive as the local storage and Firebase Firestore as the online storage
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Versions
+- Flutter 3.22.3
+- Dart 3.4.4
 
-A few resources to get you started if this is your first Flutter project:
+### App Features
+- Clean smooth UI
+- Firebase Phone Auth with country selector
+- Tasks CRUD to Hive
+- Synchronization service from Hive to Firebase
+- Network connectivity checker
+- In-App network toggle
+- Internationalization
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Dependencies
+- State Management - Riverpod
+- Local storage - Hive
+- Online storage - Firebase
+- Internationalization - internationalization
+- Network status - connectivity_plus
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### To run the app
+- Clone the repo
+- Run `flutter pub get`
+- Connect simulator/emulator
+- Run `flutter run`
+
+
+## Screenshots
+<p align="center">
+  <img src="./screenshots/1.png" alt="Screenshot 1" style="width: 25%; max-width: 300px; height: auto;" />
+  <img src="./screenshots/2.png" alt="Screenshot 2" style="width: 25%; max-width: 300px; height: auto;" />
+  <img src="./screenshots/3.png" alt="Screenshot 3" style="width: 25%; max-width: 300px; height: auto;" />
+  <img src="./screenshots/4.png" alt="Screenshot 3" style="width: 25%; max-width: 300px; height: auto;" />
+</p>
