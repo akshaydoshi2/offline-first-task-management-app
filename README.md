@@ -1,4 +1,4 @@
-# Tushop Assignment
+# Offline First Task Management App
 
 A simple offline-first Task Management App using Hive as the local storage and Firebase Firestore as the online storage
 
